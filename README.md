@@ -78,10 +78,11 @@ Currently focused on **frontend development** with React & TypeScript, while mai
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nurfaidzy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=0ea5e9&icon_color=0ea5e9&text_color=94a3b8&ring_color=0ea5e9" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nurfaidzy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=0ea5e9&text_color=94a3b8" height="170" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=nurfaidzy&theme=tokyonight&hide_border=true&background=0a0a0a&ring=0ea5e9&fire=14b8a6&currStreakLabel=0ea5e9&sideLabels=94a3b8&dates=64748b" height="170" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nurfaidzy&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nurfaidzy&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nurfaidzy&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nurfaidzy&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nurfaidzy&theme=tokyonight&utcOffset=7" />
 
 </div>
 
