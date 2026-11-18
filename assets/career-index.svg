@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-label="NKRX career index chart, rising from 2021 to 2026">
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#10161f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel -->
+  <rect x="1.5" y="1.5" width="877" height="317" rx="12" fill="url(#panel)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- header row -->
+  <text x="28" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#e6edf3">NKRX · CAREER INDEX</text>
+  <text x="852" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#10b981">▲ +500% since 2021</text>
+
+  <!-- grid -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="70" y1="80"  x2="830" y2="80"/>
+    <line x1="70" y1="130" x2="830" y2="130"/>
+    <line x1="70" y1="180" x2="830" y2="180"/>
+    <line x1="70" y1="230" x2="830" y2="230"/>
+    <line x1="70" y1="280" x2="830" y2="280"/>
+    <line x1="70"  y1="60" x2="70"  y2="280"/>
+    <line x1="197" y1="60" x2="197" y2="280"/>
+    <line x1="323" y1="60" x2="323" y2="280"/>
+    <line x1="450" y1="60" x2="450" y2="280"/>
+    <line x1="576" y1="60" x2="576" y2="280"/>
+    <line x1="703" y1="60" x2="703" y2="280"/>
+    <line x1="830" y1="60" x2="830" y2="280"/>
+  </g>
+
+  <!-- year labels -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" text-anchor="middle">
+    <text x="70"  y="299">2021</text>
+    <text x="197" y="299">2022</text>
+    <text x="323" y="299">2023</text>
+    <text x="450" y="299">2024</text>
+    <text x="576" y="299">2025</text>
+    <text x="703" y="299">2026</text>
+    <text x="830" y="299">2027</text>
+  </g>
+
+  <!-- area under line -->
+  <path d="M171,238 L234,201 L302,165 L344,152 L681,79 L819,54 L819,280 L171,280 Z" fill="url(#area)"/>
+
+  <!-- line -->
+  <path d="M171,238 L234,201 L302,165 L344,152 L681,79 L819,54"
+        fill="none" stroke="#10b981" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- dots + labels -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="600">
+    <circle cx="171" cy="238" r="4.5" fill="#0d1117" stroke="#10b981" stroke-width="2"/>
+    <text x="171" y="222" text-anchor="middle" fill="#f59e0b">DTS</text>
+
+    <circle cx="234" cy="201" r="4.5" fill="#0d1117" stroke="#10b981" stroke-width="2"/>
+    <text x="234" y="179" text-anchor="middle" fill="#f59e0b">Ruangguru</text>
+
+    <circle cx="302" cy="165" r="4.5" fill="#0d1117" stroke="#10b981" stroke-width="2"/>
+    <text x="302" y="196" text-anchor="middle" fill="#f59e0b">Akulaku Fin.</text>
+
+    <circle cx="344" cy="152" r="4.5" fill="#0d1117" stroke="#10b981" stroke-width="2"/>
+    <text x="352" y="138" text-anchor="start" fill="#f59e0b">Itruzz</text>
+
+    <circle cx="681" cy="79" r="4.5" fill="#0d1117" stroke="#10b981" stroke-width="2"/>
+    <text x="681" y="63" text-anchor="middle" fill="#f59e0b">PKR</text>
+
+    <circle cx="819" cy="54" r="5.5" fill="#10b981" stroke="#0d1117" stroke-width="2">
+      <animate attributeName="r" values="5.5;7.5;5.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="819" y="80" text-anchor="middle" fill="#e6edf3">now</text>
+  </g>
+</svg>
